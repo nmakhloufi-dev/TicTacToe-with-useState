@@ -1,0 +1,88 @@
+/* src/App.css */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+
+.question-section {
+  text-align: center;
+  border-radius: 10px; 
+  padding: 20px; 
+  background-color: rgba(117, 62, 185, 0.9); 
+  max-width: 600px; 
+font-family:'Times New Roman', Times, serif;
+}
+
+.question-count {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.question-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.option-button {
+  margin: 5px 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+ 
+}
+.option-button:hover{
+  background-color: rgb(29, 115, 186);
+}
+.option-button.selected {
+  background-color: #6655c6;
+  border-radius: 12px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: blueviolet;
+}
+
+.score-section {
+  font-size: 24px;
+  text-align: center;
+}
+/* src/App.css */
+body {
+  background-image: url(componenets/background.jpg);
+  background-size: cover;
+  background-position: center;
+  
+   } Ensure the entire viewport height is covered */
+
+
+.quiz-container {
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+}
+
+
+
+.score-section {
+  font-size: 24px;
+  text-align: center;
+  background-color: #b188cf; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin-top: 65px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
